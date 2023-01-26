@@ -1,0 +1,69 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(42, 219, 205);
+}
+
+.div-titulo{
+
+}
+header{
+    display: flex;
+    height: 70px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+    
+.div-titulo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div-titulo{
+    font-weight: 300;
+}
+.container{
+    width: 100%;
+    height: calc(100vh -100px);
+    display: flex;
+    justify-content: center;
+}
+.cajamayor{
+    border: 2px solid;
+    width: 1000px;
+    height: 200%;
+    display: flexbox;
+}
+.caja1{
+    border: 2px solid;
+    width: 30%;
+    height: 250px;
+    margin: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.caja2{
+    
+    width: 30%;
+    height: 250px;
+    margin: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
